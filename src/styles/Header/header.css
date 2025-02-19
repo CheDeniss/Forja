@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 110px;
+    background-color: #454545;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header.hidden {
+    transform: translateY(0);
+}
+
+.header-logo {
+    margin-right: 5vw;
+    margin-left: 40px;
+}
+
+.header-flame {
+    margin-left: 5vw;
+}
+
+.logo-slicons-container {
+    display: flex;
+    align-items: end ;
+}
+
+.sl-icon {
+    margin: 0 clamp(1vw, 1.5vw, 1.5vw);
+}
